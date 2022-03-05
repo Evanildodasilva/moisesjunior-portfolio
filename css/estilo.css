@@ -876,8 +876,8 @@ display: flex;
         text-align: center;
         z-index: 1000;
         height: 0;
-        transition: .3s;
-        
+      
+
     }
  nav ul li{
      margin-top:1.6rem;
@@ -889,12 +889,12 @@ display: flex;
         
        }
        nav ul li a:hover{
-        margin-top:1.5rem;
+        margin-top:1.6rem;
         color: #beb8ec;
         
        }
        #nav.active .menu{
-           transition: .5s;
+           transition: .6s;
            height: calc(100vh - 50px);
            visibility: visible;
         background-color: #6a59d1;
