@@ -12,6 +12,19 @@ body{
     
   
 }
+::-webkit-scrollbar{
+    width: 10px;
+  
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: #312a58;
+    border: 1px solid transparent;
+    border-radius: 6px;
+  
+    
+}
+
 header{
     margin-top: 0px;
     padding-top: 0px;
@@ -64,8 +77,9 @@ ul li a:hover {
     padding-top: 0px;
     margin-top: 12px;
     margin-left: 5rem;
-    width: 40px;
-    height: 30px;
+    width: 50px;
+    height: 35px;
+   
 }
 .logo img{
     width: 100%;
@@ -150,6 +164,12 @@ opacity: 0.7;
     opacity: 90%;
     color: white;
 }
+#faleComigo:hover{
+    transform: scale(1.01);
+    transition: .4s;
+    box-shadow: 0 0 15px  #614fd0;
+
+}
 .midias{
     margin: 1px;
     margin-right: 1rem;
@@ -199,6 +219,14 @@ list-style: none;
     margin: 2rem;
     margin-bottom: 7rem;
 }
+#sobreMim h3{
+    opacity: 90%;
+    font-size: 40px;
+    padding: 10px;
+    font-family: "Montserrat";
+
+
+}
 h2{
     text-align: center;
     font-size: 50px;
@@ -209,13 +237,7 @@ h2{
     width: 100%;
     height: 100%;
 }
-#sobreMim h3{
-    opacity: 70%;
-    font-size: 45px;
-    margin: 0px;
-    font-family: Montserrat;
 
-}
 
 
 
@@ -269,7 +291,7 @@ h2{
 .cardServicos:hover{
     transform: scale(1.01);
     transition: .4s;
-    box-shadow: 0 0 3px  hsl(250deg 66% 75%);
+    box-shadow: 0 0 15px  #614fd0;
 
 }
  h4{
@@ -310,8 +332,10 @@ h2{
 }
 .cardServicos #faleComigo:hover{
     margin-top: 15px;
-    background-color: rgb(131, 114, 216);
-   box-shadow:  0 0 3px rgb(173, 164, 219);
+    background-color: transparent;
+
+    border: 1px solid white;
+    transform: none;
 }
 
 
@@ -329,6 +353,14 @@ h2{
     color: white;
     background-color: #614fd0;
     cursor: pointer;
+}
+#baixarCurriculo:hover{
+    transform: scale(1.01);
+    transition: .4s;
+    border: 1px solid white;
+    background-color: transparent;
+    box-shadow: 0 0 15px  #614fd0;
+
 }
 
 #contactos{
@@ -395,7 +427,7 @@ width: 800px;
 #iconMidias img{
     width: 100%;
     height: 100%;
-    opacity: 65%;
+    opacity: 70%;
 }
 
 
@@ -443,8 +475,8 @@ width: 800px;
     color: white;
 
 }
-#contactos h2{
-    opacity: 65%;
+#contactos h3{
+    opacity: 90%;
     font-size: 40px;
     padding: 10px;
     font-family: "Montserrat";
@@ -470,7 +502,12 @@ form{
     border-radius: 6px;
     margin-bottom: 4.5rem;
 }
+form:hover{
+    transform: scale(1.01);
+    transition: .4s;
+    box-shadow: 0 0 15px  #614fd0;
 
+}
 
 fieldset{
     width: 80px;
@@ -550,8 +587,8 @@ legend{
 }
 
 #cardProjectos{
-    width: 80%;
-height: 45rem;
+    width: 70%;
+height: 40rem;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -562,8 +599,16 @@ height: 45rem;
     background-size: cover;
  
 }
+#cardProjectos:hover{
+    transform: scale(1.01);
+    transition: .4s;
+    border: 1px solid white;
+    background-color: transparent;
+    box-shadow: 0 0 30px  #614fd0;
+
+}
 .textoProjectos{
-    padding: 4px;  
+    padding: 5px;  
     padding-left: 0px;
 }
 .textoProjectos a{
@@ -571,7 +616,6 @@ margin-right: 6px;
 color: rgb(142, 123, 238);
 font-size: 12px;
 opacity: 100%;
-background-color: white;
 padding: 2px;
 font-family: Poppins;
 
@@ -675,6 +719,14 @@ footer h3{
     justify-content: center;
     align-items: center;
     
+}
+.imagemProjecto:hover{
+    transform: scale(1.01);
+    transition: .4s;
+    border: 1px solid white;
+    background-color: transparent;
+    box-shadow: 0 0 20px  #614fd0;
+
 }
 .caixa img{
     width: 100%;
@@ -790,7 +842,6 @@ display: flex;
    .depoimentosImagem img{
       width: 100%;
       height: 100%;
-      opacity: 80%;
   }
   .depoimentosTexto{
       font-family: "Poppins regular";
@@ -817,6 +868,7 @@ display: flex;
 .estrelas2 img{
     width: 100%;
     height: 100%;
+    opacity: 70%;
 }
 
 #menuMobile{
@@ -837,8 +889,8 @@ display: flex;
         background-repeat: no-repeat;
         color: white;  
         height: 100vh;
-        max-width: 100%;
         width: 100%;
+        max-width: 100%;
        margin: 0px; 
     }
     
@@ -867,7 +919,7 @@ display: flex;
 
     }
  nav ul li{
-     margin-top:1.6rem;
+     margin-top:2rem;
      
     }
     nav ul li a{
@@ -925,6 +977,9 @@ display: flex;
 
 }
 @media (max-width:500px){
+    .caixa{
+        display: block;
+    }
 
     #sobreMimTexto{
        
