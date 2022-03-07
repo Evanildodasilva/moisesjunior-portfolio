@@ -599,7 +599,7 @@ legend{
 }
 
 #cardProjectos{
-    width: 62%;
+    width: 65%;
     height: 36rem;
     justify-content: center;
     align-items: center;
@@ -646,7 +646,7 @@ background-size: cover;
 
 footer{
     height: 200px;
-    background-color:#0f0d1f;
+    background-color:#0e0d1b;
     width: 100%;
     bottom: 0;
     display: flex;
