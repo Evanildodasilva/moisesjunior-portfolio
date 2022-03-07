@@ -10,3 +10,4 @@ function ativarMenu(event){
 
 botaoMobile.addEventListener('click', ativarMenu);
 botaoMobile.addEventListener('touchstart', ativarMenu);
+

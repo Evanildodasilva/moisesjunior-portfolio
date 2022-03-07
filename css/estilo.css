@@ -1,9 +1,6 @@
-html{
+*{
     margin: 0;
     padding: 0;
-    border: none;
-    overflow-x: hidden;
-  
     
 }
 body{
@@ -390,7 +387,7 @@ h2{
    overflow: hidden;
     margin: 1px;
     justify-content: center;
-width: 800px;
+   width: 800px;
     align-items: center;
     height: 500px;
     display: flex;
@@ -449,7 +446,6 @@ width: 800px;
 
 
 
-
      .linksSociais{
             height: 130px;
             width: 270px;
@@ -461,8 +457,7 @@ width: 800px;
             margin: 6px;
             color: white;
             background-color: #111120;
-            border-radius: 6px;
-            }
+            border-radius: 6px;            }
 
             .linksSociais:hover{
             border: 1px solid #614fd0;
@@ -479,7 +474,6 @@ width: 800px;
     text-decoration: none;
     font-size: 14px;
     color: #b6b0da;
-   
     font-family: Poppins;
 }
 #contactos p{
@@ -656,8 +650,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: auto;
-    position: relative;
+  
 }
 
 footer h3{
@@ -750,8 +743,6 @@ footer h3{
     width: 100%;
     border: 1px solid transparent;
     border-radius: 6px;
-
-  
     height: 100%;
 }
 .imagemProjecto{
@@ -902,7 +893,10 @@ display: flex;
     }
 
 
-
+.imagemProjecto{
+    width: 90%;
+    height: 60%;
+}
     header{
         background-color: #100e1f;
         position: fixed;
@@ -1078,6 +1072,9 @@ display: flex;
 }
 }
 @media (max-width:620px){
+    html{
+        overflow-x: hidden;
+    }
     h2{
         font-size: 30px;
     }
